@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:MyBooks" 
+             x:Class="MyBooks.MyBooksPage">
+
+    <!--add item to toll bar . TITle & BUTTON-->
+	<ContentPage.ToolbarItems>
+        <!--HELP NAVIGATE TO the new book page -->
+         <ToolbarItem Text = "CLEAR" Order ="Secondary"
+                     Activated= "Select_Activated"    
+                    
+        />
+
+       
+        <ToolbarItem Text = "Add"
+                     Activated= "Add_Activated"         
+        />
+
+        
+    </ContentPage.ToolbarItems>
+
+      <!--use data binding to bind book to mybpage.data binding use this{} -->
+    <ListView x:Name ="BookList">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text ="{Binding Name}"
+                          Detail ="{Binding Author}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+
+
+    
+</ContentPage>

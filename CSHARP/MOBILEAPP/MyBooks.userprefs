@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{C847022E-482E-48EC-8270-C23A9CC5D822}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MyBooks/MyBooksPage.xaml.cs">
+    <Files>
+      <File FileName="MyBooks/App.xaml.cs" Line="13" Column="52" />
+      <File FileName="MyBooks/Book.cs" Line="19" Column="9" />
+      <File FileName="MyBooks/NewBookPage.xaml.cs" Line="43" Column="13" />
+      <File FileName="MyBooks/NewBookPage.xaml" Line="21" Column="1" />
+      <File FileName="MyBooks/MyBooksPage.xaml.cs" Line="56" Column="58" />
+      <File FileName="MyBooks/MyBooksPage.xaml" Line="36" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.MyBooks.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E50CB2BE-3128-43E0-A405-59A31895EEC4">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.MyBooks.iOS>
+</Properties>
