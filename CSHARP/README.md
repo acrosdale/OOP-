@@ -1,7 +1,7 @@
 Introduction
 
 The mobileApp folder contains a cross platform and a ios base application made using XAML 
-for the UI and C# for the backend/functionality
+for the UI and C# for the backend/functionality.
 
 General Information 
 
