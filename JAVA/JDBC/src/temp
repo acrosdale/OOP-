@@ -1,0 +1,30 @@
+static final String JDBC_DRIVER = "org.sqlite.JDBC";
+	static final String DB = "jdbc:sqlite://Users/ALEX-C/Desktop/workspace/JDBC/bin/TPC_H.sqlite";
+	static Scanner input   = new Scanner(System.in);
+	static Connection conn = null;
+	static PreparedStatement stat  = null;
+	static String SQL      = null; // use for query construction
+	static ResultSet rs;
+
+	
+	
+	
+			//connect to DB
+			Class.forName(JDBC_DRIVER);
+
+
+			conn = DriverManager.getConnection(DB);
+
+			stat = conn.prepareStatement("SELECT *  FROM customer");
+
+			rs = stat.executeQuery();
+			
+			while (rs.next()) {
+				System.out.println("name = " + rs.getString("c_name"));
+				
+				}
+				rs.close();
+
+			//stat.executeUpdate("SELECT *  FROM customer;");
+			conn.close();
+	
