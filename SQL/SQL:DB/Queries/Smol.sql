@@ -1,0 +1,1 @@
+CREATE INDEX IndexN TABLE nation ON n_nationkey

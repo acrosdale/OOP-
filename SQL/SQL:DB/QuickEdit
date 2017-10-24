@@ -1,0 +1,22 @@
+RelOp.h
+QueryExecutionTree
+
+public:
+unsigned int QPage;
+void SetMem(unsigned int i); 
+
+
+RelOp.cc
+ON TOP put static int Pages;
+
+void QueryExecutionTree::SetMem(unsigned int p) {
+	QPage = p;
+	Pages = p;
+}
+
+
+Main.cc
+
+queryTree.SetMem(100);
+before cout << queryTree << endl;
+		

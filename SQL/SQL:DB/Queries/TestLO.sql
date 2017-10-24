@@ -1,0 +1,1 @@
+CREATE INDEX ppart TABLE part ON p_partkey
