@@ -22,8 +22,7 @@ included is a basic queuing mechanism and some small delays to prevent collision
 not change the delays. You can duplicate SimpleSendC to use a different AM type or
 possibly rewire it.
 * **Transport** - There is only the interface of Transport included. The actual
-implementation of the Transport layer is left to the student as an exercise. For
-CSE160 this will be Project 3 so don't worry about it now.
+implementation of the Transport layer is left to the student as an exercise. 
 
 ## Noise
 /noise/
