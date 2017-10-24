@@ -4,4 +4,4 @@
   SELECT,FROM,WHERE,GROUPBY,SUM etc.
 
 # General Information
-  Currently working on the final part which is a B+ tree which will be used to hold INDEXES
+  Currently working on the final part which is a B+ tree which will be used to hold the INDEXES.
