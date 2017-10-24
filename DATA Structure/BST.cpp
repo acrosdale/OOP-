@@ -1,14 +1,6 @@
 #include <iostream>
 using namespace std;
-
-
-//                         10
-//                       /    /
-//                      6      14
-//                     / \    /  /
-//                    5   8  11  18
 /*
-
     A BST is a binary tree where nodes are ordered in the following way:
         *each node contains one key (also known as data)
         *the keys in the left subtree are less then the key in its parent node, in short L < P;
