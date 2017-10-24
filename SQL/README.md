@@ -1,6 +1,6 @@
 # Introduction
   
-  The SQL:DB contain a Semi-functional SQL database coded in C++. It contain the general SQL DB functional such 
+  The SQL:DB contain a functional SQL database coded in C++. It contain the general SQL DB functional such 
   SELECT,FROM,WHERE,GROUPBY,SUM etc.
 
 # General Information
